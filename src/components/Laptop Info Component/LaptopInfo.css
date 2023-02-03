@@ -1,0 +1,620 @@
+.desktop-upload-photo-container{
+    display: none;
+}
+
+.laptopInfo-container{
+    background-color: #F6F6F6;
+}
+
+.step-2{
+    padding: 0px;
+}
+
+.upload-photo{
+    display: none;
+}
+
+#photo-active{
+    border: 2px dashed orange !important;
+}
+
+
+/* first-section-styles */
+
+.first-section{
+    max-width: 1226px;
+    width: 100%;
+    padding: 29px 16px 33px 16px;
+    background-color: #FFFFFF;
+    border-radius: 12px;
+}
+
+/* uploadPhoto-styles */
+
+.desktop-section{
+    display: none;
+}
+
+.mobile-upload-photo-container{
+    max-width: 878px;
+    width: 100%;
+    height: 244px;
+    border: 2px dashed #4386A9;
+    background: #F7F7F7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.camera-img{
+    width: 54px;
+    height: 54px;
+    margin-top: 59px;
+}
+
+.upload-photo-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #4386A9;
+    width: 146px;
+    text-align: center;
+    cursor: pointer;
+    margin-top: 21px;
+}
+
+
+.uploadedPhoto-container{
+    width: 100%;
+    height: 181px;
+}
+
+.uploadedPhoto-container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.re-upload-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+
+.uploadedPhoto-info img{
+    width: 22px;
+    height: 22px;
+}
+
+.uploadedPhoto-info{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+#photo-added{
+    margin-top: 104px;
+}
+
+.reUpload-btn{
+    width: 187px;
+    height: 46px;
+    background: #62A1EB;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+/* uploadErrorPhoto-styles */
+
+.fileInfo-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.fileName-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.fileSize-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #5F5F5F;
+}
+
+.upload-error{
+    border: 2px dashed #E52F2F;
+    background: #FFEDED;
+}
+
+.upload-error label{
+    color: #E52F2F;
+    font-weight: 500;
+}
+
+.uploadPhoto-error{
+    width: 23px;
+    height: 21px;
+    margin-top: 12px;
+}
+
+/* uploadPhoto-styles */
+
+
+
+.laptopInfo-wrapper{
+    margin-top: 41px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+
+
+
+/* second-section-styles */
+
+
+.second-section{
+    max-width: 1226px;
+    width: 100%;
+    padding: 33px 16px 28px 16px;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 12px;
+}
+
+#radio-input{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4D9AC3;
+}
+
+input[type=radio]{
+    -webkit-appearance: none;
+    border: 2px solid #4d9ac3;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 20px;
+    outline: none;
+    width: 20px;
+}
+
+input[type=radio]:checked{
+    background: #4d9ac3;
+    width: 90%;
+}
+
+.cpuCore-inputbox{
+    margin-top: 42px;
+}
+
+
+.cpuThread-inputbox{
+    margin-top: 22px;
+}
+
+
+.bottom-wrapper{
+    margin-top: 22px;
+}
+
+
+.memoryRadio-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 23px;
+}
+
+.memoryType-title{
+    height: 21px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.memoryRadio-wrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 26px;
+    gap: 60px;
+}
+
+.radio-box{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: #000000;
+    height: 21px;
+}
+
+
+
+.radio-title{
+    display: flex;
+    gap: 15px;
+}
+
+.radioError-img{
+    width: 22.11px;
+    height: 20px;
+}
+
+.memory-error{
+    color: #E52F2F;
+}
+
+
+
+/* third-section-styles */
+
+.third-section{
+    max-width: 1226px;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 10px;
+    border-radius: 12px 12px 0px 0px;
+    padding: 24px 8px 48px 16px;
+}
+
+
+.date-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+
+.firstLaptop-box{
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+/* laptopState-box-styles */
+
+.laptopState-box{
+    margin-top: 22px;
+}
+
+.laptopState-container{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    gap: 60px;
+}
+
+.laptopState-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.btn-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+
+.submit-btn{
+    width: 162px;
+    height: 46px;
+    background: #62A1EB;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+
+.prev-btn{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.08em;
+    color: #62A1EB;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.laptopState-error{
+    color: #E52F2F;
+}
+
+
+
+@media screen and (min-width:890px){
+
+    .mobile-upload-photo-container{
+        display: none;
+    }
+
+    /* first-section-styles */
+
+    .first-section{
+        background-color: #FFFFFF;
+        border-radius: 0px;
+        /* padding: 0px; */
+        padding: 68px 0px 52px 0px;
+    }
+
+
+    /* uploadPhotoContainer-styles */
+
+    .mobile-section{
+        display: none;
+    }
+    .desktop-section{
+        display: block;
+    }
+
+    .desktop-upload-photo-container{
+        width: 878px;
+        height: 423px;
+        border: 2px dashed #4386A9;
+        border-radius: 18px;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .upload-photo-title{
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 38px;
+        width: 195px;
+        height: 76px;
+        margin-top: 107px;
+    } 
+
+    .upload-btn{
+        width: 233px;
+        height: 60px;
+        background: #62A1EB;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Helvetica Neue';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-top: 65px;
+        cursor: pointer;
+    }
+
+
+    .uploadedPhoto-container{
+        height: 423px;
+    }
+
+    .reUpload-btn{
+        width: 233px;
+        height: 60px;
+        font-size: 20px;
+    }
+
+
+    #photo-added{
+        margin-top: 174px;
+    }
+
+    /* uploadErr-styles */
+
+    .upload-error{
+        border: 2px dashed #E52F2F;
+    }
+
+    .upload-error label{
+        color: #FFFFFF;
+    }
+
+    .upload-error p{
+        color: #E52F2F;
+    }
+
+    .err-img{
+        margin-top: 54px;
+    }
+
+    .upload-error p{
+        margin-top: 19px;
+    }
+
+    .upload-error .upload-btn{
+        margin-top: 65px;
+    }
+
+    /* uploadPhotoContainer-styles */
+
+    .fileInfo-wrapper{
+        flex-direction: row;
+        align-items: center;
+        gap: 18px;
+    }
+
+    .fileName-title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+
+    .fileSize-title{
+        font-size: 18px;
+        line-height: 21px;
+    }
+    
+
+    .laptopInfo-wrapper{
+        flex-direction: row;
+        align-items: center;
+        gap: 63px;
+        margin-top: 50px;
+    }
+
+    .laptopInfo-wrapper .select{
+        width: 408px;
+    }
+
+
+
+    /* second-section-styles */
+
+    .second-section{
+        position: relative;
+        margin-top: 0px;
+        border-radius: 0px;
+        background-color: #FFFFFF;
+        padding: 50px 0px 52px 0px;
+    }
+
+    .second-section::before{
+        position: absolute;
+        content: '';
+        width: 878px;
+        background: #C7C7C7;
+        height: 1px;
+        display: block;
+        top: 0px;
+    }
+
+    .cpuCore-inputbox, .cpuThread-inputbox{
+        margin-top: 0px;
+    }
+
+    /* topWrapper-styles */
+
+    .top-wrapper{
+        display: flex;
+        align-items: center;
+        gap: 24px;
+        /* background-color: gray; */
+    }
+
+    .top-wrapper .select{
+        width: 277px;
+    }
+
+    .top-wrapper input{
+        width: 276px;
+    }
+
+    /* bottomWrapper-styles */
+
+    .bottom-wrapper{
+        display: flex;
+        align-items: flex-start;
+        gap: 63px;
+        /* background-color: #4D9AC3; */
+        margin-top: 49px;
+    }
+
+    .memoryRadio-container{
+        margin-top: 0px;
+    }
+
+
+
+    /* thirdSection-styles */
+
+    .third-section{
+        position: relative;
+        padding: 0px;
+        background-color: #FFFFFF;
+        padding: 50px 0px 45px 0px;
+        margin-top: 0px;
+    }
+
+    .third-section::before{
+        position: absolute;
+        content: '';
+        width: 878px;
+        background: #C7C7C7;
+        height: 1px;
+        display: block;
+        top: 0px;
+    }
+
+    .firstLaptop-box{
+        flex-direction: row;
+        gap: 63px;
+        /* background-color: #4D9AC3; */
+    }
+
+    .react-datepicker-wrapper{
+        display: flex;
+        flex-direction: column;
+        width: auto;
+    }
+
+    .laptopState-box{
+        margin-top: 54px;
+    }
+
+    /* btn-container-styles */
+
+    .btn-container{
+        margin-top: 76px;
+    }
+
+    .submit-btn{
+        width: 219px;
+        height: 60px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .laptopState-container{
+        margin-top: 28px;
+    }
+
+}

@@ -1,0 +1,116 @@
+.desktop-header{
+    display: none;
+}
+/* create-containerr-styles */
+
+.create-container{
+    max-width: 1226px;
+    width: 100%;
+    padding: 38px 16px 58px 16px;
+    background-color: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+    margin: auto;
+}
+
+/* create-header-styles */
+
+.create-header{
+    position: relative;
+    height: 84px;
+}
+
+.create-header-title{
+    padding-top: 31px;
+}
+
+.leftArrow-icon{
+    position: absolute;
+    left: 16px;
+    top: 34px;
+}
+
+.header-step-counter{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 56px;
+}
+
+.create-header-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #232323;
+    
+}
+
+
+.create-btn-container{
+    display: flex;
+    align-items: center;
+}
+
+.next-btn{
+    width: 132px;
+    height: 46px;
+    background: #62A1EB;
+    border-radius: 8px;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 43px;
+    margin-left: auto;
+    cursor: pointer;
+}
+
+
+
+.logo2-img{
+    display: none;
+}
+
+
+@media screen and (min-width:890px){
+
+    .mobile-header{
+        display: none;
+    }
+    .desktop-header{
+        display: block;
+    }
+
+
+    .create-container{
+        display: flex;
+        justify-content: center;
+        padding-top: 96px;
+        padding-bottom: 44px;
+        margin-top: 157px;
+    }
+
+    .next-btn{
+        margin-top: 95px;
+        width: 176px;
+        height: 60px;
+        font-size: 20px;
+    }
+    
+    .create-header{
+        height: 0px;
+    }
+
+    .logo2-img{
+        display: block;
+        width: 85px;
+        height: 85px;
+        margin:  67px auto;
+        margin-bottom: 45px;
+    }
+}

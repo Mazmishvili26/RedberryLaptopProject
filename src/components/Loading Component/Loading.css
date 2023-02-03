@@ -1,0 +1,21 @@
+.loading-section{
+    max-width: 1920px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loading-gif{
+    width: 60px;
+    height: 60px;
+}
+
+
+@media screen and (min-width:1000px){
+    .loading-gif{
+        width: 80px;
+        height: 80px;
+    }
+}

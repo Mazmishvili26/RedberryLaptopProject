@@ -1,0 +1,167 @@
+.listPrev-btn{
+    position: absolute;
+    top: 34px;
+    left: 16px;
+    cursor: pointer;
+}
+
+.listHeader-title{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #232323;
+    margin-top: 31px;
+}
+
+
+.list-container{
+    padding: 0px 16px 51px 16px;
+    margin-top: 33px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 26px;
+}
+
+
+/* listCard-styles */
+
+.list-card{
+    background: #EAFAFF;
+    border: 1px solid #AED1EA;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 7px 0px 7px 7px;
+    gap: 16px;
+    overflow: hidden;
+}
+
+
+.listCard-imgBox img{
+    width: 164px;
+    height: 109px;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+
+/* listCardInfo-box */
+
+.userFullName-box{
+    display: flex;
+    align-items: center;
+}
+
+.userFullName{
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #2E2E2E;
+}
+
+
+.laptopName{
+    max-width: 250px;
+    width: 100%;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #2E2E2E;
+    margin-top: 8px;
+    overflow: hidden;
+}
+
+
+.detail-btn{
+    background-color: transparent;
+    border: none;
+    font-family: 'Helvetica Neue';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-decoration-line: underline;
+    color: #4386A9;
+    margin-top: 11px;
+    cursor: pointer;
+}
+
+@media screen and (min-width:650px){
+
+    .list-container{
+        place-items: center;
+    }
+
+    .list-card{
+        width: 600px;
+    } 
+}
+
+@media screen and (min-width: 1200px){
+
+    .listHeader-title{
+        font-size: 34px;
+        line-height: 21px;
+        margin-top: 79px;
+    }
+
+    .listPrev-btn{
+        position: static;
+    }
+
+    .listPrev-box{
+        width: 53px;
+        height: 53px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #D9D9D9;
+        border-radius: 50%;
+        position: absolute;
+        top: 53px;
+        left: 70px;
+        cursor: pointer;
+    }
+    
+    .list-container{
+        grid-template-columns: 1fr 1fr;
+        max-width: 1210px;
+        width: 100%;
+        margin: 97px auto;
+        row-gap: 55px;
+        column-gap: 52px;
+    }
+
+    .list-card{
+        width: 563px;
+        height: 205px;
+        gap: 28px;
+
+    }
+
+    .listCard-imgBox img{
+        width: 266px;
+        height: 178px;
+        border-radius: 10px;
+    }
+
+    .userFullName{
+        font-size: 18px;
+    }
+
+    .laptopName{
+        margin-top: 18px;
+    }
+
+    .detail-btn{
+        font-size: 16px;
+        margin-top: 40px;
+    }
+}
